@@ -1,7 +1,5 @@
 (function ($) {
     "use strict";
-
-    // Spinner
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
@@ -10,13 +8,7 @@
         }, 1);
     };
     spinner(0);
-    
-    
-    // Initiate the wowjs
     new WOW().init();
-    
-    
-   // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
         $('.back-to-top').fadeIn('slow');
@@ -29,8 +21,6 @@
         return false;
     });
 
-
-    // Blog carousel
     $(".blog-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
@@ -60,8 +50,6 @@
         }
     });
 
-
-    // Testimonial carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
@@ -95,4 +83,3 @@
     });
 
 })(jQuery);
-
