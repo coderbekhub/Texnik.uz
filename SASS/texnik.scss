@@ -2,3 +2,28 @@
   margin: 0;
   padding: 0;
 }
+
+.opitContent {
+  div {
+    .opitInfo {
+      i {
+        font-size: 44px;
+        color: #FDF001;
+      }
+    }
+  }
+}
+
+.circleContent {
+  .fadeInUp {
+    div {
+      div {
+        .rounded-circle {
+          color: #fff !important;
+          background-color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

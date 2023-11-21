@@ -1,5 +1,3 @@
-
-/*** Spinner Start ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -12,8 +10,6 @@
      visibility: visible;
      opacity: 1;
  }
-
-/*** Spinner End ***/
 
 .back-to-top {
     position: fixed;
@@ -50,10 +46,6 @@
     box-shadow: inset 200px 0 0 0 var(--bs-primary);
     color: var(--bs-dark) !important;
 }
-
-
-
-/*** Topbar Start ***/
 
 .search-btn {
     position: relative;
@@ -100,9 +92,6 @@
     }
 }
 
-/*** Topbar End ***/
-
-/*** Navbar Start ***/
 .navbar .navbar-nav {
     padding: 15px 0;
 }
@@ -162,12 +151,6 @@
     padding: 5px 12px;
     border: 2px solid var(--bs-primary) !important;
 }
-
-/*** Navbar End ***/
-
-
-
-/*** Carousel Start ***/
 
 .carousel-item {
     position: relative;
@@ -253,11 +236,6 @@
     margin-bottom: 6rem;
 }
 
-/*** Carousel End ***/
-
-
-/*** About Start ***/
-
 .about-img {
     width: 100%;
     height: 100%;
@@ -336,10 +314,6 @@
     to {top: 102%;}
 }
 
-/*** About End ***/
-
-
-/*** Services Start ***/
 .services-inner-icon {
     width: 130px;
     height: 130px;
@@ -389,9 +363,6 @@
     justify-content: center;
 }
 
-/*** Services Start ***/
-
-/*** Project Start ***/
 .project-item {
     width: 100%;
     height: 100%;
@@ -411,7 +382,6 @@
     z-index: 1;
     border-radius: 10px 10px 10px 10px;
 }
-
 
 .project-item::after {
     content: "";
@@ -481,18 +451,11 @@
 
 }
 
-
-/*** prohect Start ***/
-
-
-/*** Blog Start ***/
-
 .blog-carousel {
     width: 100%;
     height: 100%;
     position: relative;
 }
-
 
 .blog-carousel .owl-nav .owl-prev {
     position: absolute;
@@ -543,13 +506,8 @@
     color: var(--bs-primary) !important;
 }
 
-/*** Blog End ***/
-
-
-/*** Pricing Start ***/
 .pricing-item {
     transition: .5s;
-    
 }
 
 .pricing-item:hover {
@@ -571,21 +529,11 @@
     border-color: rgba(255, 255, 255, .5);
 }
 
-
-/*** Pricing End ***/
-
-
-/*** Call To Action start ***/
-
 .call-to-action {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
-/*** Call To Action End ***/
-
-
-/*** Team Start ***/
 .team-item {
     position: relative;
     width: 100%;
@@ -628,9 +576,7 @@
     box-shadow: inset 550px 0 0 0 var(--bs-dark);
     color: var(--bs-primary) !important;
 }
-/*** Team End ***/
 
-/*** testimonial Start ***/
 .testimonial-content {
     position: relative;
     width: 100%;
@@ -714,10 +660,6 @@
     background: var(--bs-primary);
 }
 
-/*** testimonial End ***/
-
-
-/*** Contact Start ***/
 .contact-link a i,
 .contact-link a h5,
 .contact-link a.h5 {
@@ -730,10 +672,6 @@
     color: var(--bs-primary) !important;
 }
 
-/*** Contact End ***/
-
-
-/*** Footer Start ***/
 .footer {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) center center no-repeat;
     background-size: cover;
@@ -746,11 +684,6 @@
     color: rgba(255, 255, 255, .7);
     text-transform: capitalize;
 }
-
-/*** Footer End ***/
-
-
-/*** Copywright Start ***/
 
 .copyright .copyright-btn {
     display: flex;
@@ -765,5 +698,3 @@
     align-items: center; 
     justify-content: center;
 }
-
-/*** Copywright End ***/
