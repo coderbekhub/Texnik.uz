@@ -6,19 +6,4 @@
 .opitContent div .opitInfo i {
   font-size: 44px;
   color: #FDF001;
-}
-
-.call-to-action {
-  height: 70vh;
-}
-.call-to-action .container div .aboutCircle {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  background: rgba(53, 55, 57, 0.6980392157);
-  position: relative;
-  top: 50px;
-}
-.call-to-action .container div .aboutCircle img {
-  padding: 120px 0 0 0 !important;
 }/*# sourceMappingURL=texnik.css.map */
